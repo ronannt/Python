@@ -1,7 +1,6 @@
 import mysql.connector
 from mysql.connector import errorcode
 
-
 class Funcs:
     def Login(self, user, pasw):
         try:
